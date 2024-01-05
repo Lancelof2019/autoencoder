@@ -1,0 +1,88 @@
+C:\Apps\Python\python.exe C:\Users\gklizh\Documents\Workspace\code_and_data\code\autoencoder.py 
+(463, 4983)
+(463, 4983)
+iteration 0
+first source ...
+second source ...
+features size of the 1st dataset: 301
+features size of the 2nd dataset: 301
+shape of n_hidden1  301
+shape of n_hidden2  301
+------Start trial----------------
+2024-01-05 17:25:54.723063: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+************************The crossvalidation hiscosts:*********************
+ListWrapper([<tf.Tensor: shape=(), dtype=float32, numpy=1.1850429>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1875987>, <tf.Tensor: shape=(), dtype=float32, numpy=1.189856>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1964208>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1828376>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1940173>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1940806>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1925895>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1780319>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1928492>, <tf.Tensor: shape=(), dtype=float32, numpy=1.192694>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1982101>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1870865>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1908045>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1979817>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1961126>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1833646>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1867994>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1929891>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1739936>, <tf.Tensor: shape=(), dtype=float32, numpy=1.180743>, <tf.Tensor: shape=(), dtype=float32, numpy=1.2001407>])
+************************The crossvalidation hist_val_costs:*********************
+ListWrapper([<tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1359737>])
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+************************The crossvalidation hiscosts:*********************
+ListWrapper([<tf.Tensor: shape=(), dtype=float32, numpy=1.1602488>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1585071>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1635642>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1499478>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1562108>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1523392>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1442112>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1454289>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1536907>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1442997>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1503675>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1475056>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1484078>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1554959>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1606579>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1488633>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1486742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1589371>, <tf.Tensor: shape=(), dtype=float32, numpy=1.156119>, <tf.Tensor: shape=(), dtype=float32, numpy=1.157183>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1544634>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1492344>])
+************************The crossvalidation hist_val_costs:*********************
+ListWrapper([<tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>, <tf.Tensor: shape=(), dtype=float32, numpy=1.137742>])
+100%|██████████| 2/2 [06:12<00:00, 186.14s/trial, best loss: 0.4543894827365875]
+------------------Got the best value----------
+{'alpha': 1, 'alpha2': 0.6836172997569695, 'batch_size': 0, 'initializer': 0, 'lamda': 0, 'learning_rate': 0.009084868903905832, 'optimizer': 0, 'units1': 125, 'units2': 267}
+-----------------------End output best------------
+------------test train starts--------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^The end of train_test^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The costs in train test is  [<tf.Tensor: shape=(), dtype=float32, numpy=1.1286031>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1344936>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1124821>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1403551>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1321714>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1560218>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1345818>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1525106>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1645386>, <tf.Tensor: shape=(), dtype=float32, numpy=1.151104>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1520715>, <tf.Tensor: shape=(), dtype=float32, numpy=1.145395>, <tf.Tensor: shape=(), dtype=float32, numpy=1.160848>, <tf.Tensor: shape=(), dtype=float32, numpy=1.145836>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1326804>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1513647>, <tf.Tensor: shape=(), dtype=float32, numpy=1.13522>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1580119>, <tf.Tensor: shape=(), dtype=float32, numpy=1.153222>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1641198>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1287197>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1532912>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1494125>, <tf.Tensor: shape=(), dtype=float32, numpy=1.1535344>]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------end the train test-------------------------
+The loss value : tf.Tensor(1.1124821, shape=(), dtype=float32)
+-------------display best ----------------------
+{'alpha': 1, 'alpha2': 0.6836172997569695, 'batch_size': 0, 'initializer': 0, 'lamda': 0, 'learning_rate': 0.009084868903905832, 'optimizer': 0, 'units1': 125, 'units2': 267}
+-------------Time count--------------------
+The total time it took is about 387.09034919999976 seconds
+-------------Time count--------------------
+
+Process finished with exit code 0
